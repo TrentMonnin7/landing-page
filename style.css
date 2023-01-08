@@ -2,21 +2,29 @@
     font-family: roboto;
 }
 
+/* ----------------------
+----Header styling----
+---------------------- */
+
+
 .header{
+    background-color: #264653;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header-logo{
     font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bolder;
+    color: white;
+    font-weight: bold;
 }
 
 .header-links{
+    color: white;
     font-size: 18px;
-    color: #E5E7EB;
     display: flex;
     list-style-type: none;
     gap: 15px;
@@ -24,15 +32,82 @@
     justify-content: flex-start;
 }
 
+
+/* ----------------------
+----First Main styling----
+---------------------- */
+
 .first-main{
+    background-color: #264653;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
+
+.first-main-left-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-main-right-side{
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ----------------------
+----Second Main Styling----
+---------------------- */
+
+.second-main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.second-main-top{
+
+}
+
+.second-main-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.slot-1, .slot-2, .slot-3, .slot-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.card{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #2a9d8f;
+    border-radius: 10px;
+}
+
 li{
     /* holder comment */
 }
 
 a{
-    color: #E5E7EB;
+    color: white;
     text-decoration: none;
+}
+
+button{
+    align-self: flex-start;
+    background-color:#2a9d8f;
 }
