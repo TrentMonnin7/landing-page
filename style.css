@@ -1,0 +1,38 @@
+.container{
+    font-family: roboto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.first-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    /* holder comment */
+}
+
+a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
