@@ -32,6 +32,11 @@
     justify-content: flex-start;
 }
 
+.header-links > li > a{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* ----------------------
 ----First Main styling----
@@ -50,6 +55,12 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+.first-main-left-side > button{
+    align-self: flex-start;
+    background-color:#2a9d8f;
+    border-radius: 5px;
 }
 
 .first-main-right-side{
@@ -71,11 +82,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
-}
-
-.second-main-top{
-
+    padding: 10px 20px 10px 20px;
 }
 
 .second-main-bottom{
@@ -87,27 +94,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
-
+.slot-1, .slot-2, .slot-3, .slot-4 > p{
+    text-align: center;
+}
 
 .card{
     width: 100px;
     height: 100px;
-    border: 3px solid #2a9d8f;
+    border: 3px solid #e76f51;
     border-radius: 10px;
 }
 
+/* ----------------------
+----Third Main Styling----
+---------------------- */
+
+.third-main{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px 10px 20px;
+}
+
+#quote{
+    font-size: 32px;
+}
+
+#person{
+    align-self: flex-end;
+}
+
+
+p{
+
+}
 li{
     /* holder comment */
 }
 
-a{
-    color: white;
-    text-decoration: none;
-}
 
-button{
-    align-self: flex-start;
-    background-color:#2a9d8f;
-}
+
