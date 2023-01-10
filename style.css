@@ -1,3 +1,9 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container{
     font-family: roboto;
 }
@@ -46,9 +52,8 @@
     background-color: #264653;
     display: flex;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
+    height: 300px;
 }
 
 .first-main-left-side{
@@ -83,6 +88,11 @@
     align-items: center;
     justify-content: center;
     padding: 10px 20px 10px 20px;
+    height: 300px;
+}
+
+.second-main-top{
+    margin-bottom: 30px;
 }
 
 .second-main-bottom{
@@ -118,6 +128,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px 10px 20px;
+    height: 300px;
 }
 
 #quote{
@@ -129,12 +140,42 @@
 }
 
 
-p{
 
+/* ----------------------
+----Second Main Styling----
+---------------------- */
+
+.fourth-main{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-li{
-    /* holder comment */
+
+
+.fourth-main-container{
+    display: flex;
+    background-color: #2a9d8f;
+    border-radius: 5px;
+    padding: 30px 50px 30px 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.fourth-main-container-left>p{
+    font-size: small;
+}
 
+.fourth-main-container-right{
+    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-main-container-right>button{
+    background-color: #2a9d8f;
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 3px 15px 3px 15px;
+}
 
