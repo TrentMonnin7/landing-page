@@ -179,3 +179,17 @@
     padding: 3px 15px 3px 15px;
 }
 
+
+/* ----------------------
+----Footer----
+---------------------- */
+
+.footer{
+    height: 50px;
+    background-color: #264653;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
