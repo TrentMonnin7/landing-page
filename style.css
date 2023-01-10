@@ -65,7 +65,9 @@
 .first-main-left-side > button{
     align-self: flex-start;
     background-color:#2a9d8f;
-    border-radius: 5px;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 10px;
 }
 
 .first-main-right-side{
